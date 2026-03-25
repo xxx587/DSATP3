@@ -5,6 +5,8 @@
  * revalidate를 통해 1시간 간격으로 ISR 적용
  */
 
+export const dynamic = 'force-dynamic';
+
 import News from '@/components/widget/News';
 import { getKrNews, getJpNews } from '@/lib/news';
 

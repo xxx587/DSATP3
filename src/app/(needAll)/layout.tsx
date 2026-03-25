@@ -2,6 +2,9 @@
  * @file layout.tsx
  * @description 헤더, 사이드바, 카테고리 위젯이 모두 포함된 페이지 레이아웃을 처리하기 위한 파일
  */
+
+export const dynamic = 'force-dynamic';
+
 import Header from '@/components/layout/Header';
 import Sidebar from '@/components/layout/Sidebar';
 import Category from '@/components/widget/Category';
